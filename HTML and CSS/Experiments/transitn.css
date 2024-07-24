@@ -1,0 +1,35 @@
+button{
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: rgb(234, 252, 255);
+    border: solid rgb(241, 241, 241);
+    color: rgb(181, 181, 181);
+    transition: background-color 500ms ease-in-out;
+    transition: border-radius 500ms ease-in-out;
+    transition: box-shadow 500ms ease-in-out;
+    position: 600px 600px;
+}
+
+button:hover{
+    background-color: rgb(124, 194, 255);
+    color: aliceblue;
+    border-radius: 50px;
+    box-shadow: -4px 4px 15px black;
+}
+
+div{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    transform: scaleX(-1);
+    transform: rotate(18deg);
+    transform-origin: 0%;
+    margin-left: -30px;
+}
+
+img{
+    width: 100%;
+}
+

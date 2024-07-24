@@ -1,0 +1,29 @@
+#outer{
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+}
+
+.inner{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 10px;
+    
+}
+
+#inner1{
+background-color: red;
+display: inline-block;
+}
+
+#inner2{
+background-color: yellow;
+display: inline-block;
+}
+
+#inner3{
+background-color: green;
+display: inline-block;
+}
